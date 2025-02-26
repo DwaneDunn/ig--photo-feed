@@ -77,10 +77,22 @@ header {
   padding: 5px;
   margin-bottom: 20px;
 }
+
+main {
+  max-width: 1179px;
+  margin: 0 auto;
+}
 /* Feed */
 .feed {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 15px;
+}
+
+.photo-title {
+  background-color: white;
+  height: 60px;
+  padding-top: 10px;
+  padding-left: 10px;
 }
