@@ -90,8 +90,16 @@ main {
   gap: 15px;
 }
 
-.photo-title {
+.photo-info {
   background-color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+}
+
+.photo-title {
+  /* background-color: white; */
   height: 60px;
   padding-top: 10px;
   padding-left: 10px;
