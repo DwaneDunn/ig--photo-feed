@@ -79,7 +79,8 @@ header {
 }
 
 main {
-  max-width: 1179px;
+  /* max-width: 1179px; */
+  max-width: 500px;
   margin: 0 auto;
 }
 /* Feed */
@@ -98,9 +99,27 @@ main {
   align-items: center;
 }
 
+.photo-date {
+  color: #d3d3d3;
+  padding-right: 10px;
+}
+
 .photo-title {
   /* background-color: white; */
   height: 60px;
   padding-top: 10px;
   padding-left: 10px;
+}
+
+.photo-desc {
+  background-color: white;
+  /* border: 1px solid #e6e6e6; */
+  height: 60px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+article {
+  margin-bottom: 40px;
 }
